@@ -1,5 +1,20 @@
 ### ClassDemo.py
 
+## Import libraries
+
+``` import os ```
+
+``` from sys import stdout ```
+
+``` 
+try:
+    from src.main.python import MyClass1 as test
+except ImportError:
+    import MyClass1 as test
+```
+
+## Demo Class
+
 ``` 
 '''
 Demo Class.
