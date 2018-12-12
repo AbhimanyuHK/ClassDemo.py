@@ -37,6 +37,17 @@ def method(self, a, b):
         
         '''
  ```
+ 
+### Try - Catch
+
+```
+try:
+   b = b + a
+except Exception as e:
+   return e
+else:
+   return b
+```
 ## Demo Class
 
 ``` 
