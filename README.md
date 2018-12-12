@@ -12,7 +12,31 @@ try:
 except ImportError:
     import MyClass1 as test
 ```
+## Class Docs
 
+``` 
+class MyClass(object):
+    '''
+    classdocs : MyClass is demo class for docs
+    
+    '''
+```
+
+## Method Docs
+
+``` 
+def method(self, a, b):
+        '''
+        method : addition operation by a and b.
+        
+        a : int =>  input to the method.
+        b: int => input and output to the method.
+        
+        Exception : Exception
+        return : int, 
+        
+        '''
+ ```
 ## Demo Class
 
 ``` 
