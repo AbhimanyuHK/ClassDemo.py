@@ -48,6 +48,12 @@ except Exception as e:
 else:
    return b
 ```
+
+## List Comprevension
+
+```
+sqre = [item*item for item in list]
+```
 ## Demo Class
 
 ``` 
